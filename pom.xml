@@ -167,6 +167,15 @@
     </dependencies>
      <build>
         <plugins>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.2.3</version> <!-- Use a version that is compatible with your Maven version -->
+        </plugin>
+    </plugins>
+</build>
+
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
